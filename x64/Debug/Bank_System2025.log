@@ -1,2 +1,1904 @@
-﻿  DataSourceInterface.cpp
-  Bank_System2025.vcxproj -> C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\x64\Debug\Bank_System2025.exe
+﻿  Admin.cpp
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,21): error C2504: 'Employee': base class undefined
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(17,11): error C2614: 'Admin': illegal member initialization: 'Employee' is not a base or member
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(25,14): error C2653: 'Validation': is not a class or namespace name
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(25,26): error C3861: 'validateSalary': identifier not found
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(27,15): error C2039: 'salary': is not a member of 'Admin'
+  (compiling source file 'Admin.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(31,22): error C2039: 'salary': is not a member of 'Admin'
+  (compiling source file 'Admin.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(36,27): error C2065: 'id': undeclared identifier
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(36,47): error C2065: 'name': undeclared identifier
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(37,32): error C2065: 'salary': undeclared identifier
+  (compiling source file 'Admin.cpp')
+  
+  Bank_System2025.cpp
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,21): error C2504: 'Employee': base class undefined
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(17,11): error C2614: 'Admin': illegal member initialization: 'Employee' is not a base or member
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(27,15): error C2039: 'salary': is not a member of 'Admin'
+  (compiling source file 'Bank_System2025.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(31,22): error C2039: 'salary': is not a member of 'Admin'
+  (compiling source file 'Bank_System2025.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(36,27): error C2065: 'id': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(36,47): error C2065: 'name': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(37,32): error C2065: 'salary': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,19): error C3646: 'parseToClient': unknown override specifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,41): error C2065: 'line': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,33): error C2275: 'std::string': expected an expression instead of a type
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,45): error C2096: 'Client': A data member cannot be initialized with a parenthesized initializer
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,12): error C2864: 'Parser::Client': a static data member with an in-class initializer must have non-volatile const integral type or be specified as 'inline'
+  (compiling source file 'Bank_System2025.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,45):
+  type is 'int'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,47): error C2059: syntax error: '{'
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(45,20): error C2061: syntax error: identifier 'Client'
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(49,11): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(49,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(49,40): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(46,9): error C3861: 'FileManager': identifier not found
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(46,33): error C2065: 'client': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,16): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,9): error C2923: 'std::vector': 'Client' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Bank_System2025.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,16):
+  see declaration of 'Client'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,9): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'Bank_System2025.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,34): error C3861: 'FileManager': identifier not found
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,32): error C2512: 'std::vector': no appropriate default constructor available
+  (compiling source file 'Bank_System2025.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,14): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,22): error C2065: 'c': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,24): error C2143: syntax error: missing ';' before ':'
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,33): error C2143: syntax error: missing ';' before ')'
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,26): error C2451: a conditional expression of type 'std::vector' is not valid
+  (compiling source file 'Bank_System2025.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,26):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(63,31): error C2065: 'c': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(64,35): error C2065: 'c': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(65,41): error C2065: 'c': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(66,41): error C2065: 'c': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,16): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,9): error C2923: 'std::vector': 'Client' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Bank_System2025.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,16):
+  see declaration of 'Client'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,9): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'Bank_System2025.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,34): error C3861: 'FileManager': identifier not found
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,32): error C2512: 'std::vector': no appropriate default constructor available
+  (compiling source file 'Bank_System2025.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,14): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,22): error C2065: 'c': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,24): error C2143: syntax error: missing ';' before ':'
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,33): error C2143: syntax error: missing ';' before ')'
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,26): error C2451: a conditional expression of type 'std::vector' is not valid
+  (compiling source file 'Bank_System2025.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,26):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(76,17): error C2065: 'c': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(77,17): error C2065: 'c': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(78,17): error C2065: 'c': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(79,17): error C2065: 'c': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(80,17): error C2065: 'c': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(88,13): error C3861: 'FileManager': identifier not found
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,18): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,26): error C2065: 'c': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,28): error C2143: syntax error: missing ';' before ':'
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,37): error C2143: syntax error: missing ';' before ')'
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,30): error C2451: a conditional expression of type 'std::vector' is not valid
+  (compiling source file 'Bank_System2025.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,30):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(90,17): error C3861: 'FileManager': identifier not found
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(90,41): error C2065: 'c': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(25,20): error C2061: syntax error: identifier 'Client'
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(84,12): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(84,5): error C2923: 'std::vector': 'Client' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Bank_System2025.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(84,12):
+  see declaration of 'Client'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(84,5): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'Bank_System2025.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(30,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(31,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(32,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(33,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(34,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(57,26): error C2039: 'getId': is not a member of 'Admin'
+  (compiling source file 'Bank_System2025.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(58,26): error C2039: 'getName': is not a member of 'Admin'
+  (compiling source file 'Bank_System2025.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(59,26): error C2039: 'getPassword': is not a member of 'Admin'
+  (compiling source file 'Bank_System2025.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,16): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,9): error C2923: 'std::vector': 'Client' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Bank_System2025.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,16):
+  see declaration of 'Client'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,9): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'Bank_System2025.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,30): error C2514: 'std::vector': class template cannot be constructed
+  (compiling source file 'Bank_System2025.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,21): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,28): error C2146: syntax error: missing ';' before identifier 'client'
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,28): error C2065: 'client': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,45): error C2039: 'parseToClient': is not a member of 'Parser'
+  (compiling source file 'Bank_System2025.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(15,7):
+  see declaration of 'Parser'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,45): error C3861: 'parseToClient': identifier not found
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(96,39): error C2065: 'client': undeclared identifier
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(105,9): error C2440: 'return': cannot convert from 'std::vector' to 'std::vector'
+  (compiling source file 'Bank_System2025.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(105,9):
+  Cannot copy construct class 'std::vector' due to ambiguous copy constructors or no available copy constructor
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(118,49): error C2039: 'parseToEmployee': is not a member of 'Parser'
+  (compiling source file 'Bank_System2025.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(15,7):
+  see declaration of 'Parser'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(118,49): error C3861: 'parseToEmployee': identifier not found
+  (compiling source file 'Bank_System2025.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(137,43): error C2039: 'parseToAdmin': is not a member of 'Parser'
+  (compiling source file 'Bank_System2025.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(15,7):
+  see declaration of 'Parser'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(137,43): error C3861: 'parseToAdmin': identifier not found
+  (compiling source file 'Bank_System2025.cpp')
+  
+  Client.cpp
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,21): error C2504: 'Employee': base class undefined
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(17,11): error C2614: 'Admin': illegal member initialization: 'Employee' is not a base or member
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(27,15): error C2039: 'salary': is not a member of 'Admin'
+  (compiling source file 'Client.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(31,22): error C2039: 'salary': is not a member of 'Admin'
+  (compiling source file 'Client.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(36,27): error C2065: 'id': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(36,47): error C2065: 'name': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(37,32): error C2065: 'salary': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,19): error C3646: 'parseToClient': unknown override specifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,41): error C2065: 'line': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,33): error C2275: 'std::string': expected an expression instead of a type
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,45): error C2096: 'Client': A data member cannot be initialized with a parenthesized initializer
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,12): error C2864: 'Parser::Client': a static data member with an in-class initializer must have non-volatile const integral type or be specified as 'inline'
+  (compiling source file 'Client.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,45):
+  type is 'int'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,47): error C2059: syntax error: '{'
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(45,20): error C2061: syntax error: identifier 'Client'
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(49,11): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(49,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(49,40): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(46,9): error C3861: 'FileManager': identifier not found
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(46,33): error C2065: 'client': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,16): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,9): error C2923: 'std::vector': 'Client' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Client.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,16):
+  see declaration of 'Client'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,9): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'Client.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,34): error C3861: 'FileManager': identifier not found
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,32): error C2512: 'std::vector': no appropriate default constructor available
+  (compiling source file 'Client.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,14): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,22): error C2065: 'c': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,24): error C2143: syntax error: missing ';' before ':'
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,33): error C2143: syntax error: missing ';' before ')'
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,26): error C2451: a conditional expression of type 'std::vector' is not valid
+  (compiling source file 'Client.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,26):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(63,31): error C2065: 'c': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(64,35): error C2065: 'c': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(65,41): error C2065: 'c': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(66,41): error C2065: 'c': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,16): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,9): error C2923: 'std::vector': 'Client' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Client.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,16):
+  see declaration of 'Client'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,9): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'Client.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,34): error C3861: 'FileManager': identifier not found
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,32): error C2512: 'std::vector': no appropriate default constructor available
+  (compiling source file 'Client.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,14): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,22): error C2065: 'c': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,24): error C2143: syntax error: missing ';' before ':'
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,33): error C2143: syntax error: missing ';' before ')'
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,26): error C2451: a conditional expression of type 'std::vector' is not valid
+  (compiling source file 'Client.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,26):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(76,17): error C2065: 'c': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(77,17): error C2065: 'c': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(78,17): error C2065: 'c': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(79,17): error C2065: 'c': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(80,17): error C2065: 'c': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(88,13): error C3861: 'FileManager': identifier not found
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,18): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,26): error C2065: 'c': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,28): error C2143: syntax error: missing ';' before ':'
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,37): error C2143: syntax error: missing ';' before ')'
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,30): error C2451: a conditional expression of type 'std::vector' is not valid
+  (compiling source file 'Client.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,30):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(90,17): error C3861: 'FileManager': identifier not found
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(90,41): error C2065: 'c': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(25,20): error C2061: syntax error: identifier 'Client'
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(84,12): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(84,5): error C2923: 'std::vector': 'Client' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Client.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(84,12):
+  see declaration of 'Client'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(84,5): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'Client.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(30,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(31,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(32,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(33,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(34,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(57,26): error C2039: 'getId': is not a member of 'Admin'
+  (compiling source file 'Client.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(58,26): error C2039: 'getName': is not a member of 'Admin'
+  (compiling source file 'Client.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(59,26): error C2039: 'getPassword': is not a member of 'Admin'
+  (compiling source file 'Client.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,16): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,9): error C2923: 'std::vector': 'Client' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Client.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,16):
+  see declaration of 'Client'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,9): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'Client.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,30): error C2514: 'std::vector': class template cannot be constructed
+  (compiling source file 'Client.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,21): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,28): error C2146: syntax error: missing ';' before identifier 'client'
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,28): error C2065: 'client': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,45): error C2039: 'parseToClient': is not a member of 'Parser'
+  (compiling source file 'Client.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(15,7):
+  see declaration of 'Parser'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,45): error C3861: 'parseToClient': identifier not found
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(96,39): error C2065: 'client': undeclared identifier
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(105,9): error C2440: 'return': cannot convert from 'std::vector' to 'std::vector'
+  (compiling source file 'Client.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(105,9):
+  Cannot copy construct class 'std::vector' due to ambiguous copy constructors or no available copy constructor
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(118,49): error C2039: 'parseToEmployee': is not a member of 'Parser'
+  (compiling source file 'Client.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(15,7):
+  see declaration of 'Parser'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(118,49): error C3861: 'parseToEmployee': identifier not found
+  (compiling source file 'Client.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(137,43): error C2039: 'parseToAdmin': is not a member of 'Parser'
+  (compiling source file 'Client.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(15,7):
+  see declaration of 'Parser'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(137,43): error C3861: 'parseToAdmin': identifier not found
+  (compiling source file 'Client.cpp')
+  
+  DataSourceInterface.cpp
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,21): error C2504: 'Employee': base class undefined
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(17,11): error C2614: 'Admin': illegal member initialization: 'Employee' is not a base or member
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(27,15): error C2039: 'salary': is not a member of 'Admin'
+  (compiling source file 'DataSourceInterface.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(31,22): error C2039: 'salary': is not a member of 'Admin'
+  (compiling source file 'DataSourceInterface.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(36,27): error C2065: 'id': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(36,47): error C2065: 'name': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(37,32): error C2065: 'salary': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,19): error C3646: 'parseToClient': unknown override specifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,41): error C2065: 'line': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,33): error C2275: 'std::string': expected an expression instead of a type
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,45): error C2096: 'Client': A data member cannot be initialized with a parenthesized initializer
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,12): error C2864: 'Parser::Client': a static data member with an in-class initializer must have non-volatile const integral type or be specified as 'inline'
+  (compiling source file 'DataSourceInterface.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,45):
+  type is 'int'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,47): error C2059: syntax error: '{'
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(45,20): error C2061: syntax error: identifier 'Client'
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(49,11): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(49,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(49,40): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(46,9): error C3861: 'FileManager': identifier not found
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(46,33): error C2065: 'client': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,16): error C2065: 'Client': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,9): error C2923: 'std::vector': 'Client' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'DataSourceInterface.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,16):
+  see declaration of 'Client'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,9): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'DataSourceInterface.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,34): error C3861: 'FileManager': identifier not found
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,32): error C2512: 'std::vector': no appropriate default constructor available
+  (compiling source file 'DataSourceInterface.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,14): error C2065: 'Client': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,22): error C2065: 'c': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,24): error C2143: syntax error: missing ';' before ':'
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,33): error C2143: syntax error: missing ';' before ')'
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,26): error C2451: a conditional expression of type 'std::vector' is not valid
+  (compiling source file 'DataSourceInterface.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,26):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(63,31): error C2065: 'c': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(64,35): error C2065: 'c': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(65,41): error C2065: 'c': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(66,41): error C2065: 'c': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,16): error C2065: 'Client': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,9): error C2923: 'std::vector': 'Client' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'DataSourceInterface.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,16):
+  see declaration of 'Client'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,9): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'DataSourceInterface.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,34): error C3861: 'FileManager': identifier not found
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,32): error C2512: 'std::vector': no appropriate default constructor available
+  (compiling source file 'DataSourceInterface.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,14): error C2065: 'Client': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,22): error C2065: 'c': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,24): error C2143: syntax error: missing ';' before ':'
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,33): error C2143: syntax error: missing ';' before ')'
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,26): error C2451: a conditional expression of type 'std::vector' is not valid
+  (compiling source file 'DataSourceInterface.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,26):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(76,17): error C2065: 'c': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(77,17): error C2065: 'c': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(78,17): error C2065: 'c': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(79,17): error C2065: 'c': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(80,17): error C2065: 'c': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(88,13): error C3861: 'FileManager': identifier not found
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,18): error C2065: 'Client': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,26): error C2065: 'c': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,28): error C2143: syntax error: missing ';' before ':'
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,37): error C2143: syntax error: missing ';' before ')'
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,30): error C2451: a conditional expression of type 'std::vector' is not valid
+  (compiling source file 'DataSourceInterface.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,30):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(90,17): error C3861: 'FileManager': identifier not found
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(90,41): error C2065: 'c': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(25,20): error C2061: syntax error: identifier 'Client'
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(84,12): error C2065: 'Client': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(84,5): error C2923: 'std::vector': 'Client' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'DataSourceInterface.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(84,12):
+  see declaration of 'Client'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(84,5): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'DataSourceInterface.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(30,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(31,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(32,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(33,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(34,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(57,26): error C2039: 'getId': is not a member of 'Admin'
+  (compiling source file 'DataSourceInterface.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(58,26): error C2039: 'getName': is not a member of 'Admin'
+  (compiling source file 'DataSourceInterface.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(59,26): error C2039: 'getPassword': is not a member of 'Admin'
+  (compiling source file 'DataSourceInterface.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,16): error C2065: 'Client': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,9): error C2923: 'std::vector': 'Client' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'DataSourceInterface.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,16):
+  see declaration of 'Client'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,9): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'DataSourceInterface.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,30): error C2514: 'std::vector': class template cannot be constructed
+  (compiling source file 'DataSourceInterface.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,21): error C2065: 'Client': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,28): error C2146: syntax error: missing ';' before identifier 'client'
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,28): error C2065: 'client': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,45): error C2039: 'parseToClient': is not a member of 'Parser'
+  (compiling source file 'DataSourceInterface.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(15,7):
+  see declaration of 'Parser'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,45): error C3861: 'parseToClient': identifier not found
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(96,39): error C2065: 'client': undeclared identifier
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(105,9): error C2440: 'return': cannot convert from 'std::vector' to 'std::vector'
+  (compiling source file 'DataSourceInterface.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(105,9):
+  Cannot copy construct class 'std::vector' due to ambiguous copy constructors or no available copy constructor
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(118,49): error C2039: 'parseToEmployee': is not a member of 'Parser'
+  (compiling source file 'DataSourceInterface.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(15,7):
+  see declaration of 'Parser'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(118,49): error C3861: 'parseToEmployee': identifier not found
+  (compiling source file 'DataSourceInterface.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(137,43): error C2039: 'parseToAdmin': is not a member of 'Parser'
+  (compiling source file 'DataSourceInterface.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(15,7):
+  see declaration of 'Parser'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(137,43): error C3861: 'parseToAdmin': identifier not found
+  (compiling source file 'DataSourceInterface.cpp')
+  
+  Employee.cpp
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,21): error C2504: 'Employee': base class undefined
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(17,11): error C2614: 'Admin': illegal member initialization: 'Employee' is not a base or member
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(27,15): error C2039: 'salary': is not a member of 'Admin'
+  (compiling source file 'Employee.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(31,22): error C2039: 'salary': is not a member of 'Admin'
+  (compiling source file 'Employee.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(36,27): error C2065: 'id': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(36,47): error C2065: 'name': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(37,32): error C2065: 'salary': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,19): error C3646: 'parseToClient': unknown override specifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,41): error C2065: 'line': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,33): error C2275: 'std::string': expected an expression instead of a type
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,45): error C2096: 'Client': A data member cannot be initialized with a parenthesized initializer
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,12): error C2864: 'Parser::Client': a static data member with an in-class initializer must have non-volatile const integral type or be specified as 'inline'
+  (compiling source file 'Employee.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,45):
+  type is 'int'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,47): error C2059: syntax error: '{'
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(25,20): error C2061: syntax error: identifier 'Client'
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(39,22): error C2061: syntax error: identifier 'Employee'
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(84,12): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(84,5): error C2923: 'std::vector': 'Client' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Employee.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(84,12):
+  see declaration of 'Client'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(84,5): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'Employee.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(107,12): error C2065: 'Employee': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(107,5): error C2923: 'std::vector': 'Employee' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Employee.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(107,12):
+  see declaration of 'Employee'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(107,5): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'Employee.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(30,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(31,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(32,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(33,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(34,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(44,20): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(45,20): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(46,20): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(47,20): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(57,26): error C2039: 'getId': is not a member of 'Admin'
+  (compiling source file 'Employee.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(58,26): error C2039: 'getName': is not a member of 'Admin'
+  (compiling source file 'Employee.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(59,26): error C2039: 'getPassword': is not a member of 'Admin'
+  (compiling source file 'Employee.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,16): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,9): error C2923: 'std::vector': 'Client' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Employee.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,16):
+  see declaration of 'Client'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,9): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'Employee.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,30): error C2514: 'std::vector': class template cannot be constructed
+  (compiling source file 'Employee.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,21): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,28): error C2146: syntax error: missing ';' before identifier 'client'
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,28): error C2065: 'client': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,45): error C2039: 'parseToClient': is not a member of 'Parser'
+  (compiling source file 'Employee.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(15,7):
+  see declaration of 'Parser'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,45): error C3861: 'parseToClient': identifier not found
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(96,39): error C2065: 'client': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(105,9): error C2440: 'return': cannot convert from 'std::vector' to 'std::vector'
+  (compiling source file 'Employee.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(105,9):
+  Cannot copy construct class 'std::vector' due to ambiguous copy constructors or no available copy constructor
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(108,16): error C2065: 'Employee': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(108,9): error C2923: 'std::vector': 'Employee' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Employee.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(108,16):
+  see declaration of 'Employee'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(108,9): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'Employee.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(108,34): error C2514: 'std::vector': class template cannot be constructed
+  (compiling source file 'Employee.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(118,21): error C2065: 'Employee': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(118,30): error C2146: syntax error: missing ';' before identifier 'employee'
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(118,30): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(118,49): error C2039: 'parseToEmployee': is not a member of 'Parser'
+  (compiling source file 'Employee.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(15,7):
+  see declaration of 'Parser'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(118,49): error C3861: 'parseToEmployee': identifier not found
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(119,41): error C2065: 'employee': undeclared identifier
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(124,9): error C2440: 'return': cannot convert from 'std::vector' to 'std::vector'
+  (compiling source file 'Employee.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(124,9):
+  Cannot copy construct class 'std::vector' due to ambiguous copy constructors or no available copy constructor
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(137,43): error C2039: 'parseToAdmin': is not a member of 'Parser'
+  (compiling source file 'Employee.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(15,7):
+  see declaration of 'Parser'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(137,43): error C3861: 'parseToAdmin': identifier not found
+  (compiling source file 'Employee.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(46,22): error C2660: 'FileManager::addClient': function does not take 1 arguments
+  (compiling source file 'Employee.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(25,10):
+  see declaration of 'FileManager::addClient'
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(46,22):
+  while trying to match the argument list '(Client)'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(50,32): error C2440: 'initializing': cannot convert from 'std::vector' to 'std::vector<Client,std::allocator<Client>>'
+  (compiling source file 'Employee.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(50,32):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,32): error C2440: 'initializing': cannot convert from 'std::vector' to 'std::vector<Client,std::allocator<Client>>'
+  (compiling source file 'Employee.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,32):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,32): error C2440: 'initializing': cannot convert from 'std::vector' to 'std::vector<Client,std::allocator<Client>>'
+  (compiling source file 'Employee.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,32):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(90,30): error C2660: 'FileManager::addClient': function does not take 1 arguments
+  (compiling source file 'Employee.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(25,10):
+  see declaration of 'FileManager::addClient'
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(90,30):
+  while trying to match the argument list '(Client)'
+  
+  FileManager.cpp
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,21): error C2504: 'Employee': base class undefined
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(17,11): error C2614: 'Admin': illegal member initialization: 'Employee' is not a base or member
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(27,15): error C2039: 'salary': is not a member of 'Admin'
+  (compiling source file 'FileManager.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(31,22): error C2039: 'salary': is not a member of 'Admin'
+  (compiling source file 'FileManager.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(36,27): error C2065: 'id': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(36,47): error C2065: 'name': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(37,32): error C2065: 'salary': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(42,21): error C3646: 'parseToEmployee': unknown override specifier
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(42,45): error C2065: 'line': undeclared identifier
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(42,37): error C2275: 'std::string': expected an expression instead of a type
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(42,49): error C2096: 'Employee': A data member cannot be initialized with a parenthesized initializer
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(42,49): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(42,12): error C2864: 'Parser::Employee': a static data member with an in-class initializer must have non-volatile const integral type or be specified as 'inline'
+  (compiling source file 'FileManager.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(42,49):
+  type is 'int'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(42,51): error C2059: syntax error: '{'
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(46,9): error C3861: 'FileManager': identifier not found
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(50,34): error C3861: 'FileManager': identifier not found
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,34): error C3861: 'FileManager': identifier not found
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,34): error C3861: 'FileManager': identifier not found
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(88,13): error C3861: 'FileManager': identifier not found
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(90,17): error C3861: 'FileManager': identifier not found
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(57,26): error C2039: 'getId': is not a member of 'Admin'
+  (compiling source file 'FileManager.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(58,26): error C2039: 'getName': is not a member of 'Admin'
+  (compiling source file 'FileManager.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(59,26): error C2039: 'getPassword': is not a member of 'Admin'
+  (compiling source file 'FileManager.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(118,49): error C2039: 'parseToEmployee': is not a member of 'Parser'
+  (compiling source file 'FileManager.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(15,7):
+  see declaration of 'Parser'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(118,49): error C3861: 'parseToEmployee': identifier not found
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(137,43): error C2039: 'parseToAdmin': is not a member of 'Parser'
+  (compiling source file 'FileManager.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(15,7):
+  see declaration of 'Parser'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(137,43): error C3861: 'parseToAdmin': identifier not found
+  (compiling source file 'FileManager.cpp')
+  
+  FilesHelper.cpp
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,21): error C2504: 'Employee': base class undefined
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(17,11): error C2614: 'Admin': illegal member initialization: 'Employee' is not a base or member
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(27,15): error C2039: 'salary': is not a member of 'Admin'
+  (compiling source file 'FilesHelper.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(31,22): error C2039: 'salary': is not a member of 'Admin'
+  (compiling source file 'FilesHelper.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(36,27): error C2065: 'id': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(36,47): error C2065: 'name': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(37,32): error C2065: 'salary': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,19): error C3646: 'parseToClient': unknown override specifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,41): error C2065: 'line': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,33): error C2275: 'std::string': expected an expression instead of a type
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,45): error C2096: 'Client': A data member cannot be initialized with a parenthesized initializer
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,12): error C2864: 'Parser::Client': a static data member with an in-class initializer must have non-volatile const integral type or be specified as 'inline'
+  (compiling source file 'FilesHelper.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,45):
+  type is 'int'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(34,47): error C2059: syntax error: '{'
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(45,20): error C2061: syntax error: identifier 'Client'
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(49,11): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(49,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(49,40): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(46,9): error C3861: 'FileManager': identifier not found
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(46,33): error C2065: 'client': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,16): error C2065: 'Client': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,9): error C2923: 'std::vector': 'Client' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'FilesHelper.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,16):
+  see declaration of 'Client'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,9): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'FilesHelper.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,34): error C3861: 'FileManager': identifier not found
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,32): error C2512: 'std::vector': no appropriate default constructor available
+  (compiling source file 'FilesHelper.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,14): error C2065: 'Client': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,22): error C2065: 'c': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,24): error C2143: syntax error: missing ';' before ':'
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,33): error C2143: syntax error: missing ';' before ')'
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,26): error C2451: a conditional expression of type 'std::vector' is not valid
+  (compiling source file 'FilesHelper.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,26):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(63,31): error C2065: 'c': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(64,35): error C2065: 'c': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(65,41): error C2065: 'c': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(66,41): error C2065: 'c': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,16): error C2065: 'Client': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,9): error C2923: 'std::vector': 'Client' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'FilesHelper.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,16):
+  see declaration of 'Client'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,9): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'FilesHelper.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,34): error C3861: 'FileManager': identifier not found
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,32): error C2512: 'std::vector': no appropriate default constructor available
+  (compiling source file 'FilesHelper.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,14): error C2065: 'Client': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,22): error C2065: 'c': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,24): error C2143: syntax error: missing ';' before ':'
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,33): error C2143: syntax error: missing ';' before ')'
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,26): error C2451: a conditional expression of type 'std::vector' is not valid
+  (compiling source file 'FilesHelper.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,26):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(76,17): error C2065: 'c': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(77,17): error C2065: 'c': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(78,17): error C2065: 'c': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(79,17): error C2065: 'c': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(80,17): error C2065: 'c': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(88,13): error C3861: 'FileManager': identifier not found
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,18): error C2065: 'Client': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,26): error C2065: 'c': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,28): error C2143: syntax error: missing ';' before ':'
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,37): error C2143: syntax error: missing ';' before ')'
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,30): error C2451: a conditional expression of type 'std::vector' is not valid
+  (compiling source file 'FilesHelper.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,30):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(90,17): error C3861: 'FileManager': identifier not found
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(90,41): error C2065: 'c': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(25,20): error C2061: syntax error: identifier 'Client'
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(84,12): error C2065: 'Client': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(84,5): error C2923: 'std::vector': 'Client' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'FilesHelper.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(84,12):
+  see declaration of 'Client'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(84,5): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'FilesHelper.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(30,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(31,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(32,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(33,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(34,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(57,26): error C2039: 'getId': is not a member of 'Admin'
+  (compiling source file 'FilesHelper.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(58,26): error C2039: 'getName': is not a member of 'Admin'
+  (compiling source file 'FilesHelper.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(59,26): error C2039: 'getPassword': is not a member of 'Admin'
+  (compiling source file 'FilesHelper.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,16): error C2065: 'Client': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,9): error C2923: 'std::vector': 'Client' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'FilesHelper.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,16):
+  see declaration of 'Client'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,9): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'FilesHelper.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,30): error C2514: 'std::vector': class template cannot be constructed
+  (compiling source file 'FilesHelper.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,21): error C2065: 'Client': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,28): error C2146: syntax error: missing ';' before identifier 'client'
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,28): error C2065: 'client': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,45): error C2039: 'parseToClient': is not a member of 'Parser'
+  (compiling source file 'FilesHelper.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(15,7):
+  see declaration of 'Parser'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,45): error C3861: 'parseToClient': identifier not found
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(96,39): error C2065: 'client': undeclared identifier
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(105,9): error C2440: 'return': cannot convert from 'std::vector' to 'std::vector'
+  (compiling source file 'FilesHelper.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(105,9):
+  Cannot copy construct class 'std::vector' due to ambiguous copy constructors or no available copy constructor
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(118,49): error C2039: 'parseToEmployee': is not a member of 'Parser'
+  (compiling source file 'FilesHelper.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(15,7):
+  see declaration of 'Parser'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(118,49): error C3861: 'parseToEmployee': identifier not found
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(137,43): error C2039: 'parseToAdmin': is not a member of 'Parser'
+  (compiling source file 'FilesHelper.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(15,7):
+  see declaration of 'Parser'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(137,43): error C3861: 'parseToAdmin': identifier not found
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FilesHelper.h(77,22): error C2039: 'getId': is not a member of 'Admin'
+  (compiling source file 'FilesHelper.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FilesHelper.h(78,22): error C2039: 'getName': is not a member of 'Admin'
+  (compiling source file 'FilesHelper.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FilesHelper.h(79,22): error C2039: 'getPassword': is not a member of 'Admin'
+  (compiling source file 'FilesHelper.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FilesHelper.h(99,45): error C2039: 'parseToClient': is not a member of 'Parser'
+  (compiling source file 'FilesHelper.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(15,7):
+  see declaration of 'Parser'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FilesHelper.h(99,45): error C3861: 'parseToClient': identifier not found
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FilesHelper.h(122,49): error C2039: 'parseToEmployee': is not a member of 'Parser'
+  (compiling source file 'FilesHelper.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(15,7):
+  see declaration of 'Parser'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FilesHelper.h(122,49): error C3861: 'parseToEmployee': identifier not found
+  (compiling source file 'FilesHelper.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FilesHelper.h(145,43): error C2039: 'parseToAdmin': is not a member of 'Parser'
+  (compiling source file 'FilesHelper.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Parser.h(15,7):
+  see declaration of 'Parser'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FilesHelper.h(145,43): error C3861: 'parseToAdmin': identifier not found
+  (compiling source file 'FilesHelper.cpp')
+  
+  Parser.cpp
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,21): error C2504: 'Employee': base class undefined
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(17,11): error C2614: 'Admin': illegal member initialization: 'Employee' is not a base or member
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(27,15): error C2039: 'salary': is not a member of 'Admin'
+  (compiling source file 'Parser.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(31,22): error C2039: 'salary': is not a member of 'Admin'
+  (compiling source file 'Parser.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(36,27): error C2065: 'id': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(36,47): error C2065: 'name': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(37,32): error C2065: 'salary': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(45,20): error C2061: syntax error: identifier 'Client'
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(49,11): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(49,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(49,40): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(46,9): error C3861: 'FileManager': identifier not found
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(46,33): error C2065: 'client': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,16): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,9): error C2923: 'std::vector': 'Client' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Parser.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,16):
+  see declaration of 'Client'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,9): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'Parser.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,34): error C3861: 'FileManager': identifier not found
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(60,32): error C2512: 'std::vector': no appropriate default constructor available
+  (compiling source file 'Parser.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,14): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,22): error C2065: 'c': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,24): error C2143: syntax error: missing ';' before ':'
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,33): error C2143: syntax error: missing ';' before ')'
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,26): error C2451: a conditional expression of type 'std::vector' is not valid
+  (compiling source file 'Parser.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(62,26):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(63,31): error C2065: 'c': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(64,35): error C2065: 'c': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(65,41): error C2065: 'c': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(66,41): error C2065: 'c': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,16): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,9): error C2923: 'std::vector': 'Client' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Parser.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,16):
+  see declaration of 'Client'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,9): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'Parser.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,34): error C3861: 'FileManager': identifier not found
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(71,32): error C2512: 'std::vector': no appropriate default constructor available
+  (compiling source file 'Parser.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,14): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,22): error C2065: 'c': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,24): error C2143: syntax error: missing ';' before ':'
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,33): error C2143: syntax error: missing ';' before ')'
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,26): error C2451: a conditional expression of type 'std::vector' is not valid
+  (compiling source file 'Parser.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(75,26):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(76,17): error C2065: 'c': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(77,17): error C2065: 'c': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(78,17): error C2065: 'c': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(79,17): error C2065: 'c': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(80,17): error C2065: 'c': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(88,13): error C3861: 'FileManager': identifier not found
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,18): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,26): error C2065: 'c': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,28): error C2143: syntax error: missing ';' before ':'
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,37): error C2143: syntax error: missing ';' before ')'
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,30): error C2451: a conditional expression of type 'std::vector' is not valid
+  (compiling source file 'Parser.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(89,30):
+  No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(90,17): error C3861: 'FileManager': identifier not found
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Employee.h(90,41): error C2065: 'c': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(25,20): error C2061: syntax error: identifier 'Client'
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(84,12): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(84,5): error C2923: 'std::vector': 'Client' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Parser.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(84,12):
+  see declaration of 'Client'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(84,5): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'Parser.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(30,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(31,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(32,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(33,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(34,20): error C2065: 'client': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(57,26): error C2039: 'getId': is not a member of 'Admin'
+  (compiling source file 'Parser.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(58,26): error C2039: 'getName': is not a member of 'Admin'
+  (compiling source file 'Parser.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(59,26): error C2039: 'getPassword': is not a member of 'Admin'
+  (compiling source file 'Parser.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\Admin.h(12,7):
+  see declaration of 'Admin'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,16): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,9): error C2923: 'std::vector': 'Client' is not a valid template type argument for parameter '_Ty'
+  (compiling source file 'Parser.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,16):
+  see declaration of 'Client'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,9): error C2976: 'std::vector': too few template arguments
+  (compiling source file 'Parser.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(85,30): error C2514: 'std::vector': class template cannot be constructed
+  (compiling source file 'Parser.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(436,1):
+  see declaration of 'std::vector'
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,21): error C2065: 'Client': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,28): error C2146: syntax error: missing ';' before identifier 'client'
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,28): error C2065: 'client': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,37): error C2653: 'Parser': is not a class or namespace name
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(95,45): error C3861: 'parseToClient': identifier not found
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(96,39): error C2065: 'client': undeclared identifier
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(105,9): error C2440: 'return': cannot convert from 'std::vector' to 'std::vector'
+  (compiling source file 'Parser.cpp')
+  C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(105,9):
+  Cannot copy construct class 'std::vector' due to ambiguous copy constructors or no available copy constructor
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(115,38): error C2653: 'Parser': is not a class or namespace name
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(115,46): error C3861: 'split': identifier not found
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(118,41): error C2653: 'Parser': is not a class or namespace name
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(118,49): error C3861: 'parseToEmployee': identifier not found
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(134,38): error C2653: 'Parser': is not a class or namespace name
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(134,46): error C3861: 'split': identifier not found
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(137,35): error C2653: 'Parser': is not a class or namespace name
+  (compiling source file 'Parser.cpp')
+  
+C:\Users\ewisa\OneDrive\Desktop\Bank_System2025\FileManager.h(137,43): error C3861: 'parseToAdmin': identifier not found
+  (compiling source file 'Parser.cpp')
+  
+  Generating Code...

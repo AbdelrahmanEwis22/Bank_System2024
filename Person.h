@@ -1,7 +1,13 @@
 #pragma once
+#include <cmath>
 #include <iostream>
+#include <vector>
 #include <string>
-#include <stdexcept>
+#include <algorithm>
+#include <ctime>
+#include <sstream>
+#include <iomanip>
+#include<fstream>
 #include "Validation.h"
 using namespace std;
 class Person
@@ -16,12 +22,14 @@ public:
     Person()
     {
         this->id = 0;
+        this->name = " ";
+        this->password = " ";
     }
     Person(int id, string name, string password)
     {
-        this->id = id;
+        setId(id);
         this->name = name;
-        this->password = password;
+        setPassword(password);
     }
 
     // Setters
@@ -47,11 +55,11 @@ public:
     {
         return this->id;
     }
-    std::string getName()
+    string getName()
     {
         return this->name;
     }
-    std::string getPassword()
+    string getPassword()
     {
         return this->password;
     }

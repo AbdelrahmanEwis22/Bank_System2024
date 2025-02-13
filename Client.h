@@ -1,13 +1,28 @@
 #pragma once
 #include <iostream>
+#include <vector>
+#include <ctime>
+#include <sstream>
+#include <iomanip>
 #include "Person.h"
 #include "Validation.h" 
+#include"FileManager.h"
 using namespace std; 
 
 class Client : public Person { 
 private:
     double balanceEGP;
     double balanceUSD;
+    vector<string> transactionHistory;
+
+    static string getCurrentTime() {
+        time_t now = time(0);
+        struct tm tstruct;
+        char buffer[80];
+        localtime_s(&tstruct, &now);
+        strftime(buffer, sizeof(buffer), "%Y-%m-%d %H:%M:%S", &tstruct);
+        return string(buffer);
+    }
 
 public:
     // Constructor
@@ -17,12 +32,12 @@ public:
     }
     Client(int id, string name, string password, double balanceEGP, double balanceUSD)
         : Person(id, name, password) {
-        this->balanceEGP = balanceEGP;
-        this->balanceUSD = balanceUSD;
+        setBalanceEGP(balanceUSD); 
+        setBalanceUSD(balanceUSD); 
     }
 
     // Setters
-    void setBalance(double balanceEGP) {
+    void setBalanceEGP(double balanceEGP) {
         if (!Validation::validateBalance(balanceEGP))
             throw invalid_argument("Minimum balance is 1500");
         this->balanceEGP = balanceEGP;
@@ -34,7 +49,7 @@ public:
     }
 
     // Getters
-    double getBalance() {
+    double getBalanceEGP() {
         return this->balanceEGP;
     }
     double getBalanceUSD() {
@@ -42,7 +57,7 @@ public:
     }
 
     // Methods
-    void deposit(double amount, string currency) {
+    void deposit(double amount, string currency, bool logTransaction = true) {
         if (amount <= 0) throw invalid_argument("Invalid amount");
         if (currency == "EGP")
             balanceEGP += amount;
@@ -50,9 +65,12 @@ public:
             balanceUSD += amount;
         else throw invalid_argument("Invalid currency");
         cout << "Deposited " << amount << " " << currency << ".\n";
+        ostringstream oss;
+        oss << fixed << setprecision(2) << amount;
+        transactionHistory.push_back(getCurrentTime() + " Deposit: +" + oss.str() + " " + currency);
     }
 
-    void withdraw(double amount, string currency) {
+    void withdraw(double amount, string currency, bool logTransaction = true) {
         if (amount <= 0) throw invalid_argument("Invalid amount");
         if (currency == "EGP")
         {
@@ -68,11 +86,18 @@ public:
         }
         else throw invalid_argument("Invalid currency");
         cout << "Withdrew  " << amount << " " << currency << ".\n";
+        ostringstream oss;
+        oss << fixed << setprecision(2) << amount;
+        transactionHistory.push_back(getCurrentTime() + " Withdrawal: -" + oss.str() + " " + currency);
     }
 
     void transferTo(Client& recipient, double amount, string currency) {
         withdraw(amount, currency);
         recipient.deposit(amount, currency);
+        ostringstream oss;
+        oss << fixed << setprecision(2) << amount;
+        transactionHistory.push_back(getCurrentTime() + " Transfer to " + recipient.getName() + ": -" + oss.str() + " " + currency);
+        recipient.transactionHistory.push_back(getCurrentTime() + " Transfer from " + getName() + ": +" + oss.str() + " " + currency);
         cout << "Transferred " << amount << " " << currency << " to " << recipient.getName() << ".\n";
     }
 
@@ -103,6 +128,11 @@ public:
         else {
             throw invalid_argument("Unsupported currency conversion.");
         }
+
+        ostringstream oss;
+        oss << fixed << setprecision(2) << amount;
+        transactionHistory.push_back(getCurrentTime() + " Currency Transfer: " + oss.str() + " " + from + " to " + to);
+        recipient.transactionHistory.push_back(getCurrentTime() + " Currency Received: " + oss.str() + " " + to + " from " + from);
         cout << "Transferred " << amount << " " << from << " to "
             << recipient.getName() << " in " << to << ".\n";
     }
@@ -117,5 +147,13 @@ public:
             << "\nBalance: " << balanceEGP << " EGP, "
             << balanceUSD << " USD.\n";
     }
+    void displayTransactions() {
+        cout << "\nTransaction History for " << name << ":\n";
+        for (const string& transaction : transactionHistory) {
+            cout << transaction << endl;
+        }
+    }
+    
 };
+
 
